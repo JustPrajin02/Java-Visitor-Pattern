@@ -45,3 +45,17 @@ SumInLeavesVisitor: 24
 ProductRedNodesVisitor: 40
 
 FancyVisitor: 15 (pp. 2-3)
+
+Explanation:
+
+<img width="203" height="191" alt="image" src="https://github.com/user-attachments/assets/7b6fe853-6200-450b-a9ec-eed1f50ef6f6" />
+
+Locked stub code in the editor tests your three class implementations as follows:
+
+1. Creates a SumInLeavesVisitor object whose getResult method returns the sum of the leaves in the tree, which is 7+5+12=24 . The locked stub code prints the returned value on a new line.
+   
+2.Creates a ProductOfRedNodesVisitor object whose getResult method returns the product of the red nodes, which is 4.2.5=40. The locked stub code prints the returned value on a new line.
+
+3.Creates a FancyVisitor object whose getResult method returns the absolute difference between the sum of the values of non-leaf nodes at even depth and the sum of the values of green leaf nodes, which is |4-(7+12)|=15. The locked stub code prints the returned value on a new line.
+
+
